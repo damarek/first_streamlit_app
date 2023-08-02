@@ -34,3 +34,5 @@ streamlit.header("Fruityvice Fruit Advice!")
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # outputs the dataframe as a table
 streamlit.dataframe(fruityvice_normalized)
+
+import snowflake.connector
